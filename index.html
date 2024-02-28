@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="menu.js"></script>
     <title>Elton Marcenaria!</title>
 </head>
@@ -12,35 +14,119 @@
 <body>
     <!-- menu -->
     <div class="menu-degrade">
-        <a href="">Inicio</a>
-        <a href="">Quarto</a>
-        <a href="">Sala</a>
-        <a href="">Cozinhaa</a>
+        <div class="row">
+            <div class="col">
+                <a href="">Inicio</a>
+                <a href="">Quarto</a>
+                <a href="">Sala</a>
+                <a href="">Cozinhaa</a>
+            </div>
+
+        </div>
     </div>
     <!-- fim menu -->
 
     <main>
-
         <!-- introduçao -->
-        <section class="introducao">
-            <div class="padrao">
+        <div class="container">
+            <section class="introducao">
                 <div class="flex">
-                    <div class="txt-intro">
-                        <h2>lorem ipsu</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum architecto incidunt,
-                            exercitationem corporis doloribus asperiores molestias natus, praesentium aut voluptas
-                            quibusdam sapiente iure. Nobis ipsa maiores distinctio, est porro repellat!</p>
-                    </div>
+                    <!-- linha -->
+                    <div class="row">
+                        <div class="col-sm-6">
 
-                    <div class="imagem-intro">
-                        <img src="img/quart1.jpg" alt="">
-                    </div>
+
+                            <p style="padding-top: 5px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Excepturi vero,
+                                accusantium modi dicta laudantium perferendis, quas perspiciatis id nostrum voluptates
+                                dolorem
+                                deleniti at. Ipsam voluptates aliquid reiciendis est harum? Tempore.</p>
+
+
+                        </div>
+
+                        <div class="col-sm-6">
+
+
+                            <p style="padding-top: 5px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+                                magnam
+                                omnis
+                                unde
+                                aut, architecto illo iste, reprehenderit facere quasi sed, non cum fuga consectetur qui.
+                                Accusamus voluptatem nihil ipsam in.</p>
+
+
+                        </div>
+                    </div><!-- fim linha -->
                 </div>
-            </div>
+        </div>
+
         </section>
         <!-- fim introduçao -->
 
+
+
+        <!-- introduçao2 -->
+        <section class="introducao2">
+            <div class="container">
+                <div class="flex">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="txt-intro2">
+                                <h2>lorem ipsu</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum architecto incidunt,
+                                    exercitationem corporis doloribus asperiores molestias natus, praesentium aut
+                                    voluptas
+                                    quibusdam sapiente iure. Nobis ipsa maiores distinctio, est porro repellat!</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/guardaroupa.jpg" class="d-block w-100" alt="teste">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/cozinha3.jpg" class="d-block w-100" alt="teste">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/closet1.jpg" class="d-block w-100" alt="teste">
+                                    </div>
+                                </div>
+
+
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        <!-- fim introduçao2 -->
+
     </main>
+
+
+    <footer style="background-color: black; margin-top: 10px;
+    height: 100px;">
+        <p style="color: beige; text-align: center;">Desenvolvido por Jessivania Barbosa da Silva</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 
 </body>

@@ -1,4 +1,4 @@
-/* FIM GERAL */
+/* GERAL */
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +8,9 @@
 body{
     background-color: rgba(89, 87, 154, 0.269);
 }
+
+/* FIM GERAL */
+
 
 
 /* menu */
@@ -22,7 +25,7 @@ body{
     padding: 40px 4%;
 }
 .menu-degrade a{
-    color:rgb(15, 16, 16);
+    color:rgb(255, 255, 255);
     font-weight:bold;
     margin: 10px;
 }
@@ -37,27 +40,36 @@ body{
 
 /* fim menu */
 
+
 /* introducao */
-.padrao{
-    max-width: 1280px;
-    margin: 0 auto; 
+.introducao{
+    background-color: aqua;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-bottom-right-radius: 15px;
 }
 
-.flex{
-    display: flex;
-}
-.introducao div{
-    margin: 20px 6%;
-    padding: 10px 40px;
-    width: 550px;
-}
+/* fim introducao */
 
 
-section .txt-intro{
-    color: #5c3838;
-    padding-left: 200px; 
 
+/* introducao2 */
+
+.introducao2{
+    margin-top: 100px;
 }
-.introducao img{
+
+.introducao2 img{
    height: 520px;
+} 
+
+
+section .txt-intro2
+{
+    color: #c31b1b; 
 }
+
+/* fim introducao2 */
+
+
+
