@@ -1,9 +1,8 @@
 var menu = `<!--  menu -->
 <div class="menu-degrade">
-<a href=""><img style="height: 80px;" src="logo/icon2.ico" alt=""></a>
+<a href="index.html"><img style="height: 80px;" src="logo/icon2.ico" alt=""></a>
 <div class="row">
     <div class="col">
-        <a href="index.html">Inicio</a>
         <a href="quarto.html">Quarto</a>
         <a href="sala.html">Sala</a>
         <a href="cozinha.html">Cozinha</a>

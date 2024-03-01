@@ -4,9 +4,31 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 body{
     background-color: rgba(66, 64, 114, 0.269);
+}
+h3{
+    margin-left: 5px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+h1{
+    color: azure;
+    text-align: center;
+}
+h4{
+    color: blanchedalmond;
+    text-align: center;
+}
+
+h5{
+    margin-left: 5px;
+    text-align: center;
+    color: rgb(21, 122, 211);
+    
 }
 
 /* FIM GERAL */
@@ -15,7 +37,7 @@ body{
 
 /* introducao */
 .introducao{
-    background-color: aqua;
+    background-color: rgb(5, 5, 5);
     border-radius: 10px;
     border-bottom-right-radius: 15px;
 }
@@ -46,3 +68,33 @@ section .txt-intro2
     padding-top: 25px;
 }
 
+/* CONFIGURANDO O BOTAO CONTATO */
+
+.btn-contato button{
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 30px;
+    background-color: #2667c7;
+    border: 0;
+    border-radius: 40px;
+}
+
+/*FIM CONFIGURANDO O BOTAO CONTATO */
+
+
+/* CONFIGURANDO O BOTAO instagram */
+
+.btn-instagram button{
+    padding: 5px 15px;
+    margin-bottom: 60px;
+    margin-left: 150px;
+    margin-top: 80px;
+    font-size: 30px;
+    background-color: #2667c7;
+    border: 0;
+    border-radius: 40px;
+}
+
+/*FIM CONFIGURANDO O BOTAO instagram */
