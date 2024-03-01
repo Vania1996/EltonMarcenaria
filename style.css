@@ -98,3 +98,11 @@ section .txt-intro2
 }
 
 /*FIM CONFIGURANDO O BOTAO instagram */
+
+.carousel-control-prev-icon{
+    background-color:#0c0b0c;
+}
+
+.carousel-control-next-icon{
+    background-color:#0c0b0c;
+}
